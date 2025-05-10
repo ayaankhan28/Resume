@@ -1,0 +1,229 @@
+%-------------------------
+% Resume in Latex
+% Author : Jake Gutierrez
+% Based off of: https://github.com/sb2nov/resume
+% License : MIT
+%------------------------
+
+\documentclass[letterpaper,9pt]{article}
+
+\usepackage{latexsym}
+\usepackage[empty]{fullpage}
+\usepackage{titlesec}
+\usepackage{marvosym}
+\usepackage[usenames,dvipsnames]{color}
+\usepackage{verbatim}
+\usepackage{enumitem}
+\usepackage[hidelinks]{hyperref}
+\usepackage{fancyhdr}
+\usepackage[english]{babel}
+\usepackage{tabularx}
+\input{glyphtounicode}
+
+
+
+%----------FONT OPTIONS----------
+% sans-serif
+% \usepackage[sfdefault]{FiraSans}
+% \usepackage[sfdefault]{roboto}
+% \usepackage[sfdefault]{noto-sans}
+\usepackage[default]{sourcesanspro}
+
+% serif
+% \usepackage{CormorantGaramond}
+% \usepackage{charter}
+
+
+\pagestyle{fancy}
+\fancyhf{} % clear all header and footer fields
+\fancyfoot{}
+\renewcommand{\headrulewidth}{0pt}
+\renewcommand{\footrulewidth}{0pt}
+
+% Adjust margins
+\addtolength{\oddsidemargin}{-0.5in}
+\addtolength{\evensidemargin}{-0.5in}
+\addtolength{\textwidth}{1in}
+\addtolength{\topmargin}{-.5in}
+\addtolength{\textheight}{1.0in}
+
+\urlstyle{same}
+
+\raggedbottom
+\raggedright
+\setlength{\tabcolsep}{0in}
+
+% Sections formatting
+\titleformat{\section}{
+  \vspace{-4pt}\scshape\raggedright\large
+}{}{0em}{}[\color{black}\titlerule \vspace{-5pt}]
+
+% Ensure that generate pdf is machine readable/ATS parsable
+\pdfgentounicode=1
+
+%-------------------------
+% Custom commands
+\newcommand{\resumeItem}[1]{
+  \item\small{
+    {#1 \vspace{-2pt}}
+  }
+}
+
+\newcommand{\resumeSubheading}[4]{
+  \vspace{-2pt}\item
+    \begin{tabular*}{0.97\textwidth}[t]{l@{\extracolsep{\fill}}r}
+      \textbf{#1} & #2 \\
+      \textit{\small#3} & \textit{\small #4} \\
+    \end{tabular*}\vspace{-7pt}
+}
+
+\newcommand{\resumeSubSubheading}[2]{
+    \item
+    \begin{tabular*}{0.97\textwidth}{l@{\extracolsep{\fill}}r}
+      \textit{\small#1} & \textit{\small #2} \\
+    \end{tabular*}\vspace{-7pt}
+}
+
+\newcommand{\resumeProjectHeading}[2]{
+    \item
+    \begin{tabular*}{0.97\textwidth}{l@{\extracolsep{\fill}}r}
+      \small#1 & #2 \\
+    \end{tabular*}\vspace{-7pt}
+}
+
+\newcommand{\resumeSubItem}[1]{\resumeItem{#1}\vspace{-4pt}}
+
+\renewcommand\labelitemii{$\vcenter{\hbox{\tiny$\bullet$}}$}
+
+\newcommand{\resumeSubHeadingListStart}{\begin{itemize}[leftmargin=0.15in, label={}]}
+\newcommand{\resumeSubHeadingListEnd}{\end{itemize}}
+\newcommand{\resumeItemListStart}{\begin{itemize}}
+\newcommand{\resumeItemListEnd}{\end{itemize}\vspace{-5pt}}
+
+%-------------------------------------------
+%%%%%%  RESUME STARTS HERE  %%%%%%%%%%%%%%%%%%%%%%%%%%%%
+
+
+\begin{document}
+
+%----------HEADING----------
+% \begin{tabular*}{\textwidth}{l@{\extracolsep{\fill}}r}
+%   \textbf{\href{http://sourabhbajaj.com/}{\Large Sourabh Bajaj}} & Email : \href{mailto:sourabh@sourabhbajaj.com}{sourabh@sourabhbajaj.com}\\
+%   \href{http://sourabhbajaj.com/}{http://www.sourabhbajaj.com} & Mobile : +1-123-456-7890 \\
+% \end{tabular*}
+
+\begin{center}
+    \textbf{\Huge \scshape Ayaan Khan} \\ \vspace{1pt}
+    \small 9343282801 $|$ \href{mailto:ayaan.khan2812@gmail.com}{\underline{ayaan.khan2812@gmail.com}} $|$ 
+    \href{https://www.linkedin.com/in/ayaankhan2812/}{\underline{linkedin.com/in/ayaankhan2812}} $|$
+    \href{https://github.com/ayaankhan28}{\underline{github.com/ayaankhan28}} $|$
+    \href{https://ayaankhan2812.netlify.app/}{\underline{portfolio}}  % Your portfolio URL here
+\end{center}
+
+%-----------Achievements-----------
+\section{Achievements}
+\resumeItemListStart
+\setlength{\itemsep}{0pt} % Reduce space between items
+\resumeItem{Secured \textbf{2nd position} as a solo participant in the \textbf{Emerging Tech Hackathon} by Metadome.ai}
+\resumeItem{Got featured in  \href{https://timesofindia.indiatimes.com/city/bengaluru/gamer-controls-car-in-racing-game-with-gestures-instead-of-wheel/articleshow/110283734.cms}{\underline{\textbf{Times Of India}}}, \href{https://www.deccanherald.com/india/karnataka/bengaluru/student-develops-system-to-control-pc-racing-games-with-hand-gestures-3021121}{\underline{\textbf{Deccan Herald}}}, \href{https://www.business-standard.com/content/specials/scaler-school-of-technology-students-create-ai-companion-to-simplify-interview-prep-125010800921_1.html}{\underline{\textbf{Business Standard}}}, \href{https://www.edexlive.com/opinion/2024/Dec/26/scaler-companion-three-students-one-amazing-gen-ai-tool}{\underline{\textbf{EdexLive-1}}}, \href{https://www.edexlive.com/news/2025/Mar/05/while-developing-photosage-these-students-top-priority-was-user-privacy?utm_source=perplexity}{\underline{\textbf{EdexLive-2}}}, \href{https://www.siliconindia.com/news/startups/student-of-scaler-school-of-technology-develops-innovative-hand-gesture-control-for-racing-game-nid-229267-cid-19.html}{\underline{\textbf{Silicon India}}}}
+\resumeItem{Contributed to open-source developer CLI tool at \textbf{Runnable mcp\_ctl} (\href{https://github.com/runablehq/mcp_ctl}{\underline{GitHub}}) with \textbf{5+ merged pull requests}.}
+\resumeItemListEnd
+
+
+
+
+
+
+
+
+%-----------EXPERIENCE-----------
+\section{Experience}
+\resumeSubHeadingListStart
+  \resumeSubheading
+    {Software Engineering Intern}{June 2024 -- Feb 2025}
+    {Scaler}{Bangalore, India}
+    \resumeItemListStart
+      \resumeItem{Developed and owned an AI Support chatbot, reducing GPT queries by \textbf{10\%} using a vector database and automated backend updates via Google Cloud API, minimizing manual effort, reducing human dependency in customer support by \textbf{33\%}}
+      \resumeItem{Designed and owned a universal AI suite to seamlessly integrate multiple LLMs, optimizing and generalizing response handling across different models, with Langfuse for tracking.}
+      \resumeItem{Developed and owned a notification system for WhatsApp and email alerts, leveraging Celery for timely job execution and automation.}
+      \resumeItem{Built a admin panel backend processing, ensuring efficient task management.}
+      \resumeItem{Backend development of behavioral and language-specific mock interview systems, incorporating Docker for scalability and enabling \textbf{45-60 min} interviews with proctoring and speech-to-speech interaction. Technologies involves EC2, S3, WebSockets,OpenAI, PostgreSQL, Redis ,FastAPI}
+    \resumeItemListEnd
+\resumeSubHeadingListEnd
+
+
+
+
+%-----------PROJECTS-----------
+\section{Projects}
+\resumeSubHeadingListStart
+\resumeProjectHeading
+{\textbf{IRIS – Autonomous AI Software Engineer} $|$ \emph{Python, FastAPI, Agent (MCPs)[GitHub, Slack, ElevenLabs, Gmail]}}{Apr 2025 -- Present}
+\resumeItemListStart
+\resumeItem{\textbf{Problem:} Developers lose valuable time managing repetitive tasks like code reviews, communication, and repository updates.}
+\resumeItem{\textbf{Solution:} Built an AI agent that autonomously performs SDE-1 level tasks—\textbf{GitHub operations (commit, PR, review)}, \textbf{Slack/email context handling}, and \textbf{real-time voice interaction}—through natural language over phone call.}
+\resumeItem{\textbf{Impact:} Created a full-stack autonomous engineer that can \textbf{interpret messages, perform actions, call the user for clarification}, and self-pick tasks, significantly reducing manual overhead.}
+\resumeItem{\textbf{Live Demo:} \href{https://drive.google.com/file/d/1DgAmdF2FLCmZdymJQlruNhUtH7RAWU9w/view}{\underline{Watch IRIS in Action}}}
+\resumeItemListEnd
+
+\resumeProjectHeading
+{\textbf{Image Search Engine} $|$ \textbf{Hackathon Winning} \emph{Swift, Python, CLIP, FAISS, USearch} }{Dec 2024 -- Present}
+\resumeItemListStart
+\resumeItem{\textbf{Origin:} Started as a hackathon-winning project tackling inefficient and inaccurate image search for large-scale datasets.}
+\resumeItem{\textbf{Problem:} Searching for images on mobile devices is slow, scrolling in 1000s of images searching manually.}
+\resumeItem{\textbf{Solution:} Built an \textbf{on-device} image search engine using \textbf{CLIP} for embeddings and \textbf{FAISS} for efficient retrieval (now using USearch), ensuring full offline functionality and user privacy.}
+\resumeItem{\textbf{Impact:} Outperformed \textbf{Google Photos} on \textbf{70\% of test cases} during benchmarking. Now live on the App Store, helping real users search images using natural language. \textbf{120+ Downloads}.}
+\resumeItem{\textbf{Live on App Store:} \href{https://apps.apple.com/in/app/photosage/id6740922284}{\underline{PhotoSage on App Store}}.}
+\resumeItemListEnd
+
+\resumeProjectHeading
+{\textbf{Smart Senses for the Visually Impaired} $|$ \emph{Python, Raspberry Pi, OpenCV, AI}}{July 2024 -- Dec 2024}
+\resumeItemListStart
+\resumeItem{\textbf{Problem:} Visually impaired individuals face challenges navigating the environment and identifying objects in real time.}
+\resumeItem{\textbf{Solution:} Developed an AI-powered \textbf{smart glasses prototype} using \textbf{Python}, \textbf{Raspberry Pi}, \textbf{Gemini 2.0}, and \textbf{OpenCV} to provide \textbf{real-time voice feedback} for detected objects and environmental cues.}
+\resumeItem{\textbf{Achievement:} Successfully integrated \textbf{object detection and text recognition} into the prototype, allowing real-time feedback. Enhanced mobility and independence for users.}
+\resumeItemListEnd
+
+
+
+
+
+
+\resumeProjectHeading
+{\textbf{Sign Language to English Converter} $|$ \emph{Python, scikit-learn, TensorFlow, Mediapipe, OpenCV}}{Feb 2024 -- Feb 2024}
+\resumeItemListStart
+\resumeItem{\textbf{Problem:} Limited tools for the Deaf community to communicate in \textbf{real-time conversations}.}
+\resumeItem{\textbf{Solution:} Developed a \textbf{real-time sign language to English converter} using Python and TensorFlow. Trained a \textbf{custom model} to bridge the communication gap.}
+\resumeItem{\textbf{Achievement:} Enabled \textbf{seamless online conversations} for Deaf individuals, improving \textbf{accessibility and inclusivity}.}
+\resumeItemListEnd
+
+
+\resumeSubHeadingListEnd
+
+
+%
+%-----------SKILLS-----------
+\section{Skills}
+\resumeSubHeadingListStart
+  \resumeSubItem{\textbf{Programming:} Python, Java, JavaScript}
+  \resumeSubItem{\textbf{Frameworks:} FastAPI, Flask, React}
+  \resumeSubItem{\textbf{Databases:} PostgreSQL, Redis, MySQL}
+  \resumeSubItem{\textbf{AI/ML:} OpenCV, Tensorflow, CLIP, FAISS, Pytorch, Neural Networks, Mediapipe, AI Agents, MCPs}
+  \resumeSubItem{\textbf{DevOps:} Docker, AWS (EC2, S3), Google Cloud, Azure App Services, Celery}
+  \resumeSubItem{\textbf{Other:} WebSockets, Pydantic, Git}
+\resumeSubHeadingListEnd
+
+
+%-----------EDUCATION-----------
+\section{Education}
+  \resumeSubHeadingListStart
+    \resumeSubheading
+      {Scaler School of technology
+}{Bangalore,India}
+      {Bachelor of Science in Computer Science	}{July 2023 - July 2027}
+    \resumeSubheading
+      {Birla Institute Of Technology And Science,Pilani}{Pilani,India}
+      {Bachelor  of Science in Computer Science}{July 2023 - July 2026}
+  \resumeSubHeadingListEnd
+%-------------------------------------------
+\end{document}
