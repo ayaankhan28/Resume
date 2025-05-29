@@ -163,7 +163,9 @@
 \resumeItem{\textbf{Problem:} Developers lose valuable time managing repetitive tasks like code reviews, communication, and repository updates.}
 \resumeItem{\textbf{Solution:} Built an AI agent that autonomously performs SDE-1 level tasks—\textbf{GitHub operations (commit, PR, review)}, \textbf{Slack/email context handling}, and \textbf{real-time voice interaction}—through natural language over phone call.}
 \resumeItem{\textbf{Impact:} Created a full-stack autonomous engineer that can \textbf{interpret messages, perform actions, call the user for clarification}, and self-pick tasks, significantly reducing manual overhead.}
-\resumeItem{\textbf{Live Demo:} \href{https://drive.google.com/file/d/1DgAmdF2FLCmZdymJQlruNhUtH7RAWU9w/view}{\underline{Watch IRIS in Action}}}
+\resumeItem{\textbf{Enhancement:} Developed \textbf{\href{https://pypi.org/project/iris-ai-cli/}{IRIS CLI}} — a terminal-based AI assistant that leverages NLP to perform local actions like \textbf{executing shell commands}, \textbf{editing and creating files}, and automating workflows, all through natural language instructions.}
+
+\resumeItem{\textbf{Live Demo:} \href{https://drive.google.com/file/d/1DgAmdF2FLCmZdymJQlruNhUtH7RAWU9w/view}{\underline{Iris AI Engineer}}, \textbf{\href{https://www.linkedin.com/posts/ayaankhan2812_meet-iris-cli-assistant-your-smart-ai-activity-7332022155959844865-A3eM?utm_source=share&utm_medium=member_desktop&rcm=ACoAAD0l0YoBpKM4X0VL6HjktYx9vDvatYyT4Dg}{Iris CLI Tool}}}
 \resumeItemListEnd
 
 \resumeProjectHeading
@@ -203,15 +205,14 @@
 
 %
 %-----------SKILLS-----------
+%-----------SKILLS-----------
 \section{Skills}
-\resumeSubHeadingListStart
-  \resumeSubItem{\textbf{Programming:} Python, Java, JavaScript}
-  \resumeSubItem{\textbf{Frameworks:} FastAPI, Flask, React}
-  \resumeSubItem{\textbf{Databases:} PostgreSQL, Redis, MySQL}
-  \resumeSubItem{\textbf{AI/ML:} OpenCV, Tensorflow, CLIP, FAISS, Pytorch, Neural Networks, Mediapipe, AI Agents, MCPs}
-  \resumeSubItem{\textbf{DevOps:} Docker, AWS (EC2, S3), Google Cloud, Azure App Services, Celery}
-  \resumeSubItem{\textbf{Other:} WebSockets, Pydantic, Git}
-\resumeSubHeadingListEnd
+\begin{tabular*}{\textwidth}{@{\extracolsep{\fill}} l l}
+\textbf{Programming:} Python, Java, JavaScript & \textbf{Other:} WebSockets, Pydantic, Git \\
+\textbf{Frameworks:} FastAPI, Flask, React & \textbf{DevOps:} Docker, AWS (EC2, S3), Google Cloud, Azure App Services, Celery \\
+\textbf{Databases:} PostgreSQL, Redis, MySQL & \textbf{AI/ML:} OpenCV, Tensorflow, CLIP, FAISS, Pytorch, Neural Networks, AI Agents, MCPs \\
+\end{tabular*}
+
 
 
 %-----------EDUCATION-----------
