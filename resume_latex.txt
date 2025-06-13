@@ -139,6 +139,19 @@
 %-----------EXPERIENCE-----------
 \section{Experience}
 \resumeSubHeadingListStart
+\resumeSubheading
+    {Forward Deployed Engineer}{June 2025 -- Present}
+    {AiStudio (Remote – Dubai based)}{}
+    \resumeItemListStart
+\resumeItem{Building a RAG system for finance teams to query CRM, Excel, and Salesforce data using LLMs and FAISS.}
+\resumeItem{Designed backend, vector search, and AI pipelines with a focus on modularity and future scaling.}
+\resumeItem{Contributing at a fast-paced fintech startup led by ex-Optiver, Tower Research, and Goldman Sachs founders.}
+
+
+
+
+
+    \resumeItemListEnd
   \resumeSubheading
     {Software Engineering Intern}{June 2024 -- Feb 2025}
     {Scaler}{Bangalore, India}
@@ -191,13 +204,7 @@
 
 
 
-\resumeProjectHeading
-{\textbf{Sign Language to English Converter} $|$ \emph{Python, scikit-learn, TensorFlow, Mediapipe, OpenCV}}{Feb 2024 -- Feb 2024}
-\resumeItemListStart
-\resumeItem{\textbf{Problem:} Limited tools for the Deaf community to communicate in \textbf{real-time conversations}.}
-\resumeItem{\textbf{Solution:} Developed a \textbf{real-time sign language to English converter} using Python and TensorFlow. Trained a \textbf{custom model} to bridge the communication gap.}
-\resumeItem{\textbf{Achievement:} Enabled \textbf{seamless online conversations} for Deaf individuals, improving \textbf{accessibility and inclusivity}.}
-\resumeItemListEnd
+
 
 
 \resumeSubHeadingListEnd
