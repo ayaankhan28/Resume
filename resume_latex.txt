@@ -136,16 +136,18 @@
 
 
 
+
 %-----------EXPERIENCE-----------
 \section{Experience}
 \resumeSubHeadingListStart
 \resumeSubheading
     {Forward Deployed Engineer}{June 2025 -- Present}
-    {AiStudio (Remote – Dubai based)}{}
+    {AiStudio}{(Remote – Dubai based)}
     \resumeItemListStart
-\resumeItem{Building a RAG system for finance teams to query CRM, Excel, and Salesforce data using LLMs and FAISS.}
-\resumeItem{Designed backend, vector search, and AI pipelines with a focus on modularity and future scaling.}
-\resumeItem{Contributing at a fast-paced fintech startup led by ex-Optiver, Tower Research, and Goldman Sachs founders.}
+\resumeItem{Architecting a \textbf{RAG system} to query CRM, Excel, and Salesforce data using \textbf{Pinecone} and \textbf{Knowledge Graphs}.}
+\resumeItem{Designed modular AI pipelines for scalability, integrating vector search and \textbf{Graph RAG.}}
+\resumeItem{Collaborating with fintech veterans from Optiver, Tower Research, and Goldman Sach.}
+
 
 
 
