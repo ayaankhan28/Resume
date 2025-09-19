@@ -41,11 +41,11 @@
 \renewcommand{\footrulewidth}{0pt}
 
 % Adjust margins
-\addtolength{\oddsidemargin}{-0.5in}
-\addtolength{\evensidemargin}{-0.5in}
-\addtolength{\textwidth}{1in}
-\addtolength{\topmargin}{-.5in}
-\addtolength{\textheight}{1.0in}
+\addtolength{\oddsidemargin}{-0.8in}
+\addtolength{\evensidemargin}{-0.8in}
+\addtolength{\textwidth}{1.5in}
+\addtolength{\topmargin}{-.8in}
+\addtolength{\textheight}{1.5in}
 
 \urlstyle{same}
 
@@ -140,20 +140,28 @@
 %-----------EXPERIENCE-----------
 \section{Experience}
 \resumeSubHeadingListStart
+
 \resumeSubheading
-    {Forward Deployed Engineer}{June 2025 -- Present}
+    {Software Development Intern}{Sep 2025 -- Present}
+    {Traycer.ai}{(Remote – SF based startup)}
+    \resumeItemListStart
+    \resumeItem{Onboarding into the engineering team, setting up dev environment, and beginning contributions to software development projects.}
+    \resumeItemListEnd
+
+
+\resumeSubheading
+    {Forward Deployed Engineer}{June 2025 -- Sep 2025}
     {AiStudio}{(Remote – Dubai based)}
     \resumeItemListStart
 \resumeItem{Architecting a \textbf{RAG system} to query CRM, Excel, and Salesforce data using \textbf{Pinecone} and \textbf{Knowledge Graphs}.}
 \resumeItem{Designed modular AI pipelines for scalability, integrating vector search and \textbf{Graph RAG.}}
 \resumeItem{Collaborating with fintech veterans from Optiver, Tower Research, and Goldman Sach.}
-
-
-
-
-
-
     \resumeItemListEnd
+
+
+
+
+    
   \resumeSubheading
     {Software Engineering Intern}{June 2024 -- Feb 2025}
     {Scaler}{Bangalore, India}
