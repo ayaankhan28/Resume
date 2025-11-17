@@ -141,12 +141,7 @@
 \section{Experience}
 \resumeSubHeadingListStart
 
-\resumeSubheading
-    {Software Development Intern}{Sep 2025 -- Present}
-    {Traycer.ai}{(Remote – SF based startup)}
-    \resumeItemListStart
-    \resumeItem{Onboarding into the engineering team, setting up dev environment, and beginning contributions to software development projects.}
-    \resumeItemListEnd
+
 
 
 \resumeSubheading
@@ -180,6 +175,23 @@
 %-----------PROJECTS-----------
 \section{Projects}
 \resumeSubHeadingListStart
+
+\resumeProjectHeading
+{\textbf{Shell Breaker — Interactive Linux Problem-Solving Sandbox} $|$ \emph{Bubblewrap, tmux, cgroups, FastAPI, PostgreSQL}}{Oct 2025 -- Present}
+\resumeItemListStart
+\resumeItem{\textbf{Problem:} No safe, low-privilege platform exists for practicing real Linux commands without risking host damage or privilege escalation.}
+\resumeItem{\textbf{Solution:} Built an \textbf{unprivileged containerized terminal sandbox} using \textbf{bubblewrap} (10MB sandboxes, 3–5× lower RAM vs Docker), \textbf{tmux} (99.2\% session stability), and \textbf{cgroups} for CPU/RAM throttling + runaway process protection (<2s kill).}
+\resumeItem{\textbf{Engineering Highlights:}
+\begin{itemize}
+    \item Cut sandbox startup to \textbf{<2s} and enabled \textbf{ snapshot/restore} for instant puzzle retries.
+    \item Added a PostgreSQL-backed ledger with \textbf{100\% command traceability} and \textbf{events replay option}.
+    \item Enforced security with \textbf{300+ blocked unsafe commands} and namespace-based isolation.
+    \item Automated GC reduced orphan sessions by \textbf{95\%}.
+\end{itemize}}
+\resumeItem{\textbf{Impact:} Scaled to \textbf{supports concurrent isolated sandboxes} on a 1 GB VM, powering gamified Linux challenges, leaderboards, and reproducible puzzle environments.}
+\resumeItemListEnd
+
+
 \resumeProjectHeading
 {\textbf{IRIS – Autonomous AI Software Engineer} $|$ \emph{Python, FastAPI, Agent (MCPs)[GitHub, Slack, ElevenLabs, Gmail]}}{Apr 2025 -- Present}
 \resumeItemListStart
@@ -194,20 +206,12 @@
 \resumeProjectHeading
 {\textbf{Image Search Engine} $|$ \textbf{Hackathon Winning} \emph{Swift, Python, CLIP, FAISS, USearch} }{Dec 2024 -- Present}
 \resumeItemListStart
-\resumeItem{\textbf{Origin:} Started as a hackathon-winning project tackling inefficient and inaccurate image search for large-scale datasets.}
 \resumeItem{\textbf{Problem:} Searching for images on mobile devices is slow, scrolling in 1000s of images searching manually.}
 \resumeItem{\textbf{Solution:} Built an \textbf{on-device} image search engine using \textbf{CLIP} for embeddings and \textbf{FAISS} for efficient retrieval (now using USearch), ensuring full offline functionality and user privacy.}
 \resumeItem{\textbf{Impact:} Outperformed \textbf{Google Photos} on \textbf{70\% of test cases} during benchmarking. Now live on the App Store, helping real users search images using natural language. \textbf{120+ Downloads}.}
 \resumeItem{\textbf{Live on App Store:} \href{https://apps.apple.com/in/app/photosage/id6740922284}{\underline{PhotoSage on App Store}}.}
 \resumeItemListEnd
 
-\resumeProjectHeading
-{\textbf{Smart Senses for the Visually Impaired} $|$ \emph{Python, Raspberry Pi, OpenCV, AI}}{July 2024 -- Dec 2024}
-\resumeItemListStart
-\resumeItem{\textbf{Problem:} Visually impaired individuals face challenges navigating the environment and identifying objects in real time.}
-\resumeItem{\textbf{Solution:} Developed an AI-powered \textbf{smart glasses prototype} using \textbf{Python}, \textbf{Raspberry Pi}, \textbf{Gemini 2.0}, and \textbf{OpenCV} to provide \textbf{real-time voice feedback} for detected objects and environmental cues.}
-\resumeItem{\textbf{Achievement:} Successfully integrated \textbf{object detection and text recognition} into the prototype, allowing real-time feedback. Enhanced mobility and independence for users.}
-\resumeItemListEnd
 
 
 
