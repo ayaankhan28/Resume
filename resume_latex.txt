@@ -193,7 +193,7 @@
 
 
 \resumeProjectHeading
-{\textbf{IRIS – Autonomous AI Software Engineer} $|$ \emph{Python, FastAPI, Agent (MCPs)[GitHub, Slack, ElevenLabs, Gmail]}}{Apr 2025 -- Present}
+{\textbf{IRIS – Autonomous AI Software Engineer} $|$ \emph{Python, FastAPI, Agent (MCPs)[GitHub, Slack, ElevenLabs, Gmail]}}{Apr 2025 -- May 2025}
 \resumeItemListStart
 \resumeItem{\textbf{Problem:} Developers lose valuable time managing repetitive tasks like code reviews, communication, and repository updates.}
 \resumeItem{\textbf{Solution:} Built an AI agent that autonomously performs SDE-1 level tasks—\textbf{GitHub operations (commit, PR, review)}, \textbf{Slack/email context handling}, and \textbf{real-time voice interaction}—through natural language over phone call.}
@@ -204,7 +204,7 @@
 \resumeItemListEnd
 
 \resumeProjectHeading
-{\textbf{Image Search Engine} $|$ \textbf{Hackathon Winning} \emph{Swift, Python, CLIP, FAISS, USearch} }{Dec 2024 -- Present}
+{\textbf{Image Search Engine} $|$ \textbf{Hackathon Winning} \emph{Swift, Python, CLIP, FAISS, USearch} }{Dec 2024 -- March 2025}
 \resumeItemListStart
 \resumeItem{\textbf{Problem:} Searching for images on mobile devices is slow, scrolling in 1000s of images searching manually.}
 \resumeItem{\textbf{Solution:} Built an \textbf{on-device} image search engine using \textbf{CLIP} for embeddings and \textbf{FAISS} for efficient retrieval (now using USearch), ensuring full offline functionality and user privacy.}
