@@ -177,18 +177,18 @@
 \resumeSubHeadingListStart
 
 \resumeProjectHeading
-{\textbf{Shell Breaker — Interactive Linux Problem-Solving Sandbox} $|$ \emph{Bubblewrap, tmux, cgroups, FastAPI, PostgreSQL}}{Oct 2025 -- Present}
+{\textbf{Shell Breaker — Interactive Linux Problem-Solving Sandbox Platform} $|$ \emph{Bubblewrap, tmux, cgroups v2, FastAPI, Redis}}{Oct 2025 -- Present}
 \resumeItemListStart
-\resumeItem{\textbf{Problem:} No safe, low-privilege platform exists for practicing real Linux commands without risking host damage or privilege escalation.}
-\resumeItem{\textbf{Solution:} Built an \textbf{unprivileged containerized terminal sandbox} using \textbf{bubblewrap} (10MB sandboxes, 3–5× lower RAM vs Docker), \textbf{tmux} (99.2\% session stability), and \textbf{cgroups} for CPU/RAM throttling + runaway process protection (<2s kill).}
+\resumeItem{\textbf{Problem:} No good platform existed for practicing and mastering real Linux in realistic environments without risking host VM.}
+\resumeItem{\textbf{Solution:} Built a multi-tenant, \textbf{namespace-isolated Linux sandbox} using bubblewrap (\textbf{<8 MB per session}), tmux (\textbf{95\% session stability}) and cgroups v2 for real-time CPU/memory/PID enforcement (\textbf{<2 s kill}).}
 \resumeItem{\textbf{Engineering Highlights:}
 \begin{itemize}
-    \item Cut sandbox startup to \textbf{<2s} and enabled \textbf{ snapshot/restore} for instant puzzle retries.
-    \item Added a PostgreSQL-backed ledger with \textbf{100\% command traceability} and \textbf{events replay option}.
-    \item Enforced security with \textbf{300+ blocked unsafe commands} and namespace-based isolation.
+    \item Enabled \textbf{<10 s cold-start} sandboxes and persistent tmux-backed sessions.
+    \item Implemented PostgreSQL audit ledger with \textbf{99\% command traceability} and \textbf{replay}.
+    \item Enforced \textbf{300+ blocked unsafe commands} via syscall filtering and pattern-based command gating.
     \item Automated GC reduced orphan sessions by \textbf{95\%}.
 \end{itemize}}
-\resumeItem{\textbf{Impact:} Scaled to \textbf{supports concurrent isolated sandboxes} on a 1 GB VM, powering gamified Linux challenges, leaderboards, and reproducible puzzle environments.}
+\resumeItem{\textbf{Impact:} Runs \textbf{70+} concurrent isolated sandboxes on a \textbf{4 GB VM}, powering live gamified Linux challenges with real-time monitoring and zero security incidents.}
 \resumeItemListEnd
 
 
@@ -229,8 +229,8 @@
 %-----------SKILLS-----------
 \section{Skills}
 \begin{tabular*}{\textwidth}{@{\extracolsep{\fill}} l l}
-\textbf{Programming:} Python, Java, JavaScript & \textbf{Other:} WebSockets, Pydantic, Git \\
-\textbf{Frameworks:} FastAPI, Flask, React & \textbf{DevOps:} Docker, AWS (EC2, S3), Google Cloud, Azure App Services, Celery \\
+\textbf{Programming:} Python, Java, JavaScript & \textbf{Systems:} Linux namespaces, cgroups v2, tmux, process management, syscall filtering \\
+\textbf{Frameworks:} FastAPI, Flask & \textbf{DevOps:} Docker, AWS, Google Cloud, Azure App Services, Celery , CI/CD, WebSockets\\
 \textbf{Databases:} PostgreSQL, Redis, MySQL & \textbf{AI/ML:} OpenCV, Tensorflow, CLIP, FAISS, Pytorch, Neural Networks, AI Agents, MCPs \\
 \end{tabular*}
 
@@ -239,10 +239,7 @@
 %-----------EDUCATION-----------
 \section{Education}
   \resumeSubHeadingListStart
-    \resumeSubheading
-      {Scaler School of technology
-}{Bangalore,India}
-      {Bachelor of Science in Computer Science	}{July 2023 - July 2027}
+
     \resumeSubheading
       {Birla Institute Of Technology And Science,Pilani}{Pilani,India}
       {Bachelor  of Science in Computer Science}{July 2023 - July 2026}
