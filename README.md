@@ -6,6 +6,7 @@
 
 - **Phone**: +91 9343282801
 - **Email**: [ayaan.khan2812@gmail.com](mailto:ayaan.khan2812@gmail.com)
+- **Company Email**: [ayaan@shellbreaker.com](mailto:ayaan@shellbreaker.com)
 - **LinkedIn**: [linkedin.com/in/ayaankhan2812](https://linkedin.com/in/ayaankhan2812)
 - **GitHub**: [github.com/ayaankhan28](https://github.com/ayaankhan28)
 - **Portfolio**: [Portfolio Link](https://yourportfolio.com) <!-- Replace with actual portfolio link -->
