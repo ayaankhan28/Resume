@@ -113,11 +113,15 @@
 % \end{tabular*}
 
 \begin{center}
-    \textbf{\Huge \scshape Ayaan Khan} \\ \vspace{1pt}
-    \small 9343282801 $|$ \href{mailto:ayaan.khan2812@gmail.com}{\underline{ayaan.khan2812@gmail.com}} $|$ 
+    \textbf{\Huge \scshape Ayaan Khan} \\[6pt]
+
+    \small \textbf{Agent Orchestration Systems | Multi-Tenant Microservices | Real-Time AI Infrastructure | AWS} \\[4pt]
+
+    \small 9343282801 $|$ 
+    \href{mailto:ayaan.khan2812@gmail.com}{\underline{ayaan.khan2812@gmail.com}} $|$ 
     \href{https://www.linkedin.com/in/ayaankhan2812/}{\underline{linkedin.com/in/ayaankhan2812}} $|$
     \href{https://github.com/ayaankhan28}{\underline{github.com/ayaankhan28}} $|$
-    \href{https://ayaankhan2812.netlify.app/}{\underline{portfolio}}  % Your portfolio URL here
+    \href{https://ayaankhan2812.netlify.app/}{\underline{portfolio}}
 \end{center}
 
 %-----------Achievements-----------
@@ -148,10 +152,11 @@
     {Forward Deployed Engineer}{June 2025 -- Sep 2025}
     {AiStudio}{(Remote – Dubai based)}
     \resumeItemListStart
-\resumeItem{Architecting a \textbf{RAG system} to query CRM, Excel, and Salesforce data using \textbf{Pinecone} and \textbf{Knowledge Graphs}.}
-\resumeItem{Designed modular AI pipelines for scalability, integrating vector search and \textbf{Graph RAG.}}
-\resumeItem{Collaborating with fintech veterans from Optiver, Tower Research, and Goldman Sach.}
-    \resumeItemListEnd
+\resumeItem{Architecting a \textbf{multi-agent orchestration system} for enterprise data querying across CRM, Excel, and Salesforce using \textbf{Pinecone} and \textbf{Knowledge Graphs}.}
+\resumeItem{Designed scalable \textbf{microservices architecture} with modular skill execution, workflow composition, and state management for long-running agent tasks.}
+\resumeItem{Built real-time data pipelines integrating vector search and \textbf{Graph RAG}, enabling low-latency contextual retrieval.}
+\resumeItem{Deployed and managed services on \textbf{AWS}, focusing on reliability, logging, and production monitoring.}
+\resumeItemListEnd
 
 
 
@@ -161,12 +166,12 @@
     {Software Engineering Intern}{June 2024 -- Feb 2025}
     {Scaler}{Bangalore, India}
     \resumeItemListStart
-      \resumeItem{Developed and owned an AI Support chatbot, reducing GPT queries by \textbf{10\%} using a vector database and automated backend updates via Google Cloud API, minimizing manual effort, reducing human dependency in customer support by \textbf{33\%}}
-      \resumeItem{Designed and owned a universal AI suite to seamlessly integrate multiple LLMs, optimizing and generalizing response handling across different models, with Langfuse for tracking.}
-      \resumeItem{Developed and owned a notification system for WhatsApp and email alerts, leveraging Celery for timely job execution and automation.}
-      \resumeItem{Built a admin panel backend processing, ensuring efficient task management.}
-      \resumeItem{Backend development of behavioral and language-specific mock interview systems, incorporating Docker for scalability and enabling \textbf{45-60 min} interviews with proctoring and speech-to-speech interaction. Technologies involves EC2, S3, WebSockets,OpenAI, PostgreSQL, Redis ,FastAPI}
-    \resumeItemListEnd
+\resumeItem{Owned end-to-end development of an AI Support chatbot built on \textbf{FastAPI microservices}, reducing GPT queries by \textbf{10\%} and human dependency by \textbf{33\%}.}
+\resumeItem{Designed a \textbf{multi-model orchestration layer} to compose and manage multiple LLM workflows with centralized observability (Langfuse).}
+\resumeItem{Implemented \textbf{real-time communication layers using WebSockets} for live mock interviews with proctoring and speech-to-speech interaction (45–60 min sessions).}
+\resumeItem{Built asynchronous task execution pipelines using \textbf{Celery + Redis}, enabling event-driven notification systems (WhatsApp, Email).}
+\resumeItem{Deployed containerized services on \textbf{AWS EC2/S3} with Docker, PostgreSQL, and Redis for scalable backend systems.}
+\resumeItemListEnd
 \resumeSubHeadingListEnd
 
 
@@ -195,12 +200,11 @@
 \resumeProjectHeading
 {\textbf{IRIS – Autonomous AI Software Engineer} $|$ \emph{Python, FastAPI, Agent (MCPs)[GitHub, Slack, ElevenLabs, Gmail]}}{Apr 2025 -- May 2025}
 \resumeItemListStart
-\resumeItem{\textbf{Problem:} Developers lose valuable time managing repetitive tasks like code reviews, communication, and repository updates.}
-\resumeItem{\textbf{Solution:} Built an AI agent that autonomously performs SDE-1 level tasks—\textbf{GitHub operations (commit, PR, review)}, \textbf{Slack/email context handling}, and \textbf{real-time voice interaction}—through natural language over phone call.}
-\resumeItem{\textbf{Impact:} Created a full-stack autonomous engineer that can \textbf{interpret messages, perform actions, call the user for clarification}, and self-pick tasks, significantly reducing manual overhead.}
-\resumeItem{\textbf{Enhancement:} Developed \textbf{\href{https://pypi.org/project/iris-ai-cli/}{IRIS CLI}} — a terminal-based AI assistant that leverages NLP to perform local actions like \textbf{executing shell commands}, \textbf{editing and creating files}, and automating workflows, all through natural language instructions.}
-
-\resumeItem{\textbf{Live Demo:} \href{https://drive.google.com/file/d/1DgAmdF2FLCmZdymJQlruNhUtH7RAWU9w/view}{\underline{Iris AI Engineer}}, \textbf{\href{https://www.linkedin.com/posts/ayaankhan2812_meet-iris-cli-assistant-your-smart-ai-activity-7332022155959844865-A3eM?utm_source=share&utm_medium=member_desktop&rcm=ACoAAD0l0YoBpKM4X0VL6HjktYx9vDvatYyT4Dg}{Iris CLI Tool}}}
+\resumeItem{Built a \textbf{core agent orchestration engine} enabling autonomous skill execution across GitHub, Slack, Gmail, and CLI environments.}
+\resumeItem{Implemented task planning, workflow composition, and \textbf{state management} for long-running multi-step agent interactions.}
+\resumeItem{Integrated \textbf{real-time communication via WebSockets} and voice interfaces for live agent feedback loops.}
+\resumeItem{Designed modular backend services using FastAPI to support extensible agent capabilities and tool integrations.}
+\resumeItem{Developed IRIS CLI for natural language-based local execution (file edits, shell commands, workflow automation).}
 \resumeItemListEnd
 
 \resumeProjectHeading
@@ -229,9 +233,12 @@
 %-----------SKILLS-----------
 \section{Skills}
 \begin{tabular*}{\textwidth}{@{\extracolsep{\fill}} l l}
-\textbf{Programming:} Python, Java, JavaScript & \textbf{Systems:} Linux namespaces, cgroups v2, tmux, process management, syscall filtering \\
-\textbf{Frameworks:} FastAPI, Flask & \textbf{DevOps:} Docker, AWS, Google Cloud, Azure App Services, Celery , CI/CD, WebSockets\\
-\textbf{Databases:} PostgreSQL, Redis, MySQL & \textbf{AI/ML:} OpenCV, Tensorflow, CLIP, FAISS, Pytorch, Neural Networks, AI Agents, MCPs \\
+\textbf{Programming:} Python, Java & 
+\textbf{Architecture:} Microservices, Multi-Tenant Systems, Agent Orchestration, State Management \\
+\textbf{Frameworks:} FastAPI, Flask & 
+\textbf{Real-Time:} WebSockets, SSE, Async Task Queues \\
+\textbf{Databases:} PostgreSQL, Redis, MongoDB & 
+\textbf{Cloud/DevOps:} AWS (EC2, S3), Docker, CI/CD, Observability, Logging \\
 \end{tabular*}
 
 
