@@ -1,0 +1,261 @@
+%-------------------------
+% Resume in Latex
+% Author : Jake Gutierrez
+% Based off of: https://github.com/sb2nov/resume
+% License : MIT
+%------------------------
+
+\documentclass[letterpaper,9pt]{article}
+
+\usepackage{latexsym}
+\usepackage[empty]{fullpage}
+\usepackage{titlesec}
+\usepackage{marvosym}
+\usepackage[usenames,dvipsnames]{color}
+\usepackage{verbatim}
+\usepackage{enumitem}
+\usepackage[hidelinks]{hyperref}
+\usepackage{fancyhdr}
+\usepackage[english]{babel}
+\usepackage{tabularx}
+\input{glyphtounicode}
+
+
+
+%----------FONT OPTIONS----------
+% sans-serif
+% \usepackage[sfdefault]{FiraSans}
+% \usepackage[sfdefault]{roboto}
+% \usepackage[sfdefault]{noto-sans}
+\usepackage[default]{sourcesanspro}
+
+% serif
+% \usepackage{CormorantGaramond}
+% \usepackage{charter}
+
+
+\pagestyle{fancy}
+\fancyhf{} % clear all header and footer fields
+\fancyfoot{}
+\renewcommand{\headrulewidth}{0pt}
+\renewcommand{\footrulewidth}{0pt}
+
+% Adjust margins
+\addtolength{\oddsidemargin}{-0.8in}
+\addtolength{\evensidemargin}{-0.8in}
+\addtolength{\textwidth}{1.5in}
+\addtolength{\topmargin}{-.8in}
+\addtolength{\textheight}{1.5in}
+
+\urlstyle{same}
+
+\raggedbottom
+\raggedright
+\setlength{\tabcolsep}{0in}
+
+% Sections formatting
+\titleformat{\section}{
+  \vspace{-4pt}\scshape\raggedright\large
+}{}{0em}{}[\color{black}\titlerule \vspace{-5pt}]
+
+% Ensure that generate pdf is machine readable/ATS parsable
+\pdfgentounicode=1
+
+%-------------------------
+% Custom commands
+\newcommand{\resumeItem}[1]{
+  \item\small{
+    {#1 \vspace{-2pt}}
+  }
+}
+
+\newcommand{\resumeSubheading}[4]{
+  \vspace{-2pt}\item
+    \begin{tabular*}{0.97\textwidth}[t]{l@{\extracolsep{\fill}}r}
+      \textbf{#1} & #2 \\
+      \textit{\small#3} & \textit{\small #4} \\
+    \end{tabular*}\vspace{-7pt}
+}
+
+\newcommand{\resumeSubSubheading}[2]{
+    \item
+    \begin{tabular*}{0.97\textwidth}{l@{\extracolsep{\fill}}r}
+      \textit{\small#1} & \textit{\small #2} \\
+    \end{tabular*}\vspace{-7pt}
+}
+
+\newcommand{\resumeProjectHeading}[2]{
+    \item
+    \begin{tabular*}{0.97\textwidth}{l@{\extracolsep{\fill}}r}
+      \small#1 & #2 \\
+    \end{tabular*}\vspace{-7pt}
+}
+
+\newcommand{\resumeSubItem}[1]{\resumeItem{#1}\vspace{-4pt}}
+
+\renewcommand\labelitemii{$\vcenter{\hbox{\tiny$\bullet$}}$}
+
+\newcommand{\resumeSubHeadingListStart}{\begin{itemize}[leftmargin=0.15in, label={}]}
+\newcommand{\resumeSubHeadingListEnd}{\end{itemize}}
+\newcommand{\resumeItemListStart}{\begin{itemize}}
+\newcommand{\resumeItemListEnd}{\end{itemize}\vspace{-5pt}}
+
+%-------------------------------------------
+%%%%%%  RESUME STARTS HERE  %%%%%%%%%%%%%%%%%%%%%%%%%%%%
+
+
+\begin{document}
+
+%----------HEADING----------
+% \begin{tabular*}{\textwidth}{l@{\extracolsep{\fill}}r}
+%   \textbf{\href{http://sourabhbajaj.com/}{\Large Sourabh Bajaj}} & Email : \href{mailto:sourabh@sourabhbajaj.com}{sourabh@sourabhbajaj.com}\\
+%   \href{http://sourabhbajaj.com/}{http://www.sourabhbajaj.com} & Mobile : +1-123-456-7890 \\
+% \end{tabular*}
+
+\begin{center}
+    \textbf{\Huge \scshape Ayaan Khan} \\[6pt]
+
+
+
+    \small 9343282801 $|$ 
+    \href{mailto:ayaan.khan2812@gmail.com}{\underline{ayaan.khan2812@gmail.com}} $|$ 
+    \href{https://www.linkedin.com/in/ayaankhan2812/}{\underline{linkedin.com/in/ayaankhan2812}} $|$
+    \href{https://github.com/ayaankhan28}{\underline{github.com/ayaankhan28}} $|$
+    \href{https://ayaankhan2812.netlify.app/}{\underline{portfolio}}
+\end{center}
+
+%-----------Achievements-----------
+\section{Achievements}
+\resumeItemListStart
+\setlength{\itemsep}{0pt} % Reduce space between items
+\resumeItem{Secured \textbf{2nd position} as a solo participant in the \textbf{Emerging Tech Hackathon} by Metadome.ai}
+\resumeItem{Got featured in  \href{https://timesofindia.indiatimes.com/city/bengaluru/gamer-controls-car-in-racing-game-with-gestures-instead-of-wheel/articleshow/110283734.cms}{\underline{\textbf{Times Of India}}}, \href{https://www.deccanherald.com/india/karnataka/bengaluru/student-develops-system-to-control-pc-racing-games-with-hand-gestures-3021121}{\underline{\textbf{Deccan Herald}}}, \href{https://www.business-standard.com/content/specials/scaler-school-of-technology-students-create-ai-companion-to-simplify-interview-prep-125010800921_1.html}{\underline{\textbf{Business Standard}}}, \href{https://www.edexlive.com/opinion/2024/Dec/26/scaler-companion-three-students-one-amazing-gen-ai-tool}{\underline{\textbf{EdexLive-1}}}, \href{https://www.edexlive.com/news/2025/Mar/05/while-developing-photosage-these-students-top-priority-was-user-privacy?utm_source=perplexity}{\underline{\textbf{EdexLive-2}}}, \href{https://www.siliconindia.com/news/startups/student-of-scaler-school-of-technology-develops-innovative-hand-gesture-control-for-racing-game-nid-229267-cid-19.html}{\underline{\textbf{Silicon India}}}}
+\resumeItem{Contributed to open-source developer CLI tool at \textbf{Runnable mcp\_ctl} (\href{https://github.com/runablehq/mcp_ctl}{\underline{GitHub}}) with \textbf{5+ merged pull requests}.}
+\resumeItemListEnd
+
+
+
+
+
+
+
+
+
+%-----------EXPERIENCE-----------
+\section{Experience}
+\resumeSubHeadingListStart
+
+\resumeSubheading
+    {Founding Engineering Intern}{April 2026 -- Present}
+    {Omium}{(Remote – San Francisco)}
+    \resumeItemListStart
+\resumeItem{Designing and scaling backend systems for AI agent workflows, improving reliability, observability, and fault tolerance in prod environments}
+\resumeItemListEnd
+
+
+
+
+\resumeSubheading
+    {Forward Deployed Engineer}{June 2025 -- Sep 2025}
+    {AiStudio}{(Remote – Dubai based)}
+    \resumeItemListStart
+\resumeItem{Architecting a \textbf{multi-agent orchestration system} for enterprise data querying across CRM, Excel, and Salesforce using \textbf{Pinecone} and \textbf{Knowledge Graphs}.}
+\resumeItem{Designed scalable \textbf{microservices architecture} with modular skill execution, workflow composition, and state management for long-running agent tasks.}
+\resumeItem{Built real-time data pipelines integrating vector search and \textbf{Graph RAG}, enabling low-latency contextual retrieval.}
+\resumeItem{Deployed and managed services on \textbf{AWS}, focusing on reliability, logging, and production monitoring.}
+\resumeItemListEnd
+
+
+
+
+    
+  \resumeSubheading
+    {Software Engineering Intern}{June 2024 -- Feb 2025}
+    {Scaler}{Bangalore, India}
+    \resumeItemListStart
+\resumeItem{Owned end-to-end development of an AI Support chatbot built on \textbf{FastAPI microservices}, reducing GPT queries by \textbf{10\%} and human dependency by \textbf{33\%}.}
+\resumeItem{Designed a \textbf{multi-model orchestration layer} to compose and manage multiple LLM workflows with centralized observability (Langfuse).}
+\resumeItem{Implemented \textbf{real-time communication layers using WebSockets} for live mock interviews with proctoring and speech-to-speech interaction (45–60 min sessions).}
+\resumeItem{Built asynchronous task execution pipelines using \textbf{Celery + Redis}, enabling event-driven notification systems (WhatsApp, Email).}
+\resumeItem{Deployed containerized services on \textbf{AWS EC2/S3} with Docker, PostgreSQL, and Redis for scalable backend systems.}
+\resumeItemListEnd
+\resumeSubHeadingListEnd
+
+
+
+
+%-----------PROJECTS-----------
+\section{Projects}
+\resumeSubHeadingListStart
+
+\resumeProjectHeading
+{\textbf{Shell Breaker — Interactive Linux Problem-Solving Sandbox Platform} $|$ \emph{Bubblewrap, tmux, cgroups v2, FastAPI, Redis}}{Oct 2025 -- Present}
+\resumeItemListStart
+\resumeItem{\textbf{Problem:} No good platform existed for practicing and mastering real Linux in realistic environments without risking host VM.}
+\resumeItem{\textbf{Solution:} Built a multi-tenant, \textbf{namespace-isolated Linux sandbox} using bubblewrap (\textbf{<8 MB per session}), tmux (\textbf{95\% session stability}) and cgroups v2 for real-time CPU/memory/PID enforcement (\textbf{<2 s kill}).}
+\resumeItem{\textbf{Engineering Highlights:}
+\begin{itemize}
+    \item Enabled \textbf{<10 s cold-start} sandboxes and persistent tmux-backed sessions.
+    \item Implemented PostgreSQL audit ledger with \textbf{99\% command traceability} and \textbf{replay}.
+    \item Enforced \textbf{300+ blocked unsafe commands} via syscall filtering and pattern-based command gating.
+    \item Automated GC reduced orphan sessions by \textbf{95\%}.
+\end{itemize}}
+\resumeItem{\textbf{Impact:} Runs \textbf{70+} concurrent isolated sandboxes on a \textbf{4 GB VM}, powering live gamified Linux challenges with real-time monitoring and zero security incidents.}
+\resumeItemListEnd
+
+
+\resumeProjectHeading
+{\textbf{IRIS – Autonomous AI Software Engineer} $|$ \emph{Python, FastAPI, Agent (MCPs)[GitHub, Slack, ElevenLabs, Gmail]}}{Apr 2025 -- May 2025}
+\resumeItemListStart
+\resumeItem{Built a \textbf{core agent orchestration engine} enabling autonomous skill execution across GitHub, Slack, Gmail, and CLI environments.}
+\resumeItem{Implemented task planning, workflow composition, and \textbf{state management} for long-running multi-step agent interactions.}
+\resumeItem{Integrated \textbf{real-time communication via WebSockets} and voice interfaces for live agent feedback loops.}
+\resumeItem{Designed modular backend services using FastAPI to support extensible agent capabilities and tool integrations.}
+\resumeItem{Developed IRIS CLI for natural language-based local execution (file edits, shell commands, workflow automation).}
+\resumeItemListEnd
+
+\resumeProjectHeading
+{\textbf{Image Search Engine} $|$ \textbf{Hackathon Winning} \emph{Swift, Python, CLIP, FAISS, USearch} }{Dec 2024 -- March 2025}
+\resumeItemListStart
+\resumeItem{\textbf{Problem:} Searching for images on mobile devices is slow, scrolling in 1000s of images searching manually.}
+\resumeItem{\textbf{Solution:} Built an \textbf{on-device} image search engine using \textbf{CLIP} for embeddings and \textbf{FAISS} for efficient retrieval (now using USearch), ensuring full offline functionality and user privacy.}
+\resumeItem{\textbf{Impact:} Outperformed \textbf{Google Photos} on \textbf{70\% of test cases} during benchmarking. Now live on the App Store, helping real users search images using natural language. \textbf{120+ Downloads} and Live on App Store \href{https://apps.apple.com/in/app/photosage/id6740922284}{\underline{PhotoSage on App Store}}. }
+\resumeItemListEnd
+
+
+
+
+
+
+
+
+
+
+\resumeSubHeadingListEnd
+
+
+%
+%-----------SKILLS-----------
+%-----------SKILLS-----------
+\section{Skills}
+\begin{tabular*}{\textwidth}{@{\extracolsep{\fill}} l l}
+\textbf{Programming:} Python, Java & 
+\textbf{Architecture:} Microservices, Multi-Tenant Systems, Agent Orchestration, State Management \\
+\textbf{Frameworks:} FastAPI, Flask & 
+\textbf{Real-Time:} WebSockets, SSE, Async Task Queues \\
+\textbf{Databases:} PostgreSQL, Redis, MongoDB & 
+\textbf{Cloud/DevOps:} AWS (EC2, S3), Docker, CI/CD, Observability, Logging \\
+\end{tabular*}
+
+
+
+%-----------EDUCATION-----------
+\section{Education}
+  \resumeSubHeadingListStart
+
+    \resumeSubheading
+      {Birla Institute Of Technology And Science,Pilani}{Pilani,India}
+      {Bachelor  of Science in Computer Science (Hons)}{July 2023 - July 2027}
+  \resumeSubHeadingListEnd
+%-------------------------------------------
+\end{document}
