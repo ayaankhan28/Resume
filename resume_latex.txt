@@ -115,7 +115,7 @@
 \begin{center}
     \textbf{\Huge \scshape Ayaan Khan} \\[6pt]
 
-    \small \textbf{Agent Orchestration Systems | Multi-Tenant Microservices | Real-Time AI Infrastructure | AWS} \\[4pt]
+
 
     \small 9343282801 $|$ 
     \href{mailto:ayaan.khan2812@gmail.com}{\underline{ayaan.khan2812@gmail.com}} $|$ 
@@ -123,6 +123,15 @@
     \href{https://github.com/ayaankhan28}{\underline{github.com/ayaankhan28}} $|$
     \href{https://ayaankhan2812.netlify.app/}{\underline{portfolio}}
 \end{center}
+
+%-----------EDUCATION-----------
+\section{Education}
+  \resumeSubHeadingListStart
+
+    \resumeSubheading
+      {Birla Institute Of Technology And Science,Pilani}{Pilani,India}
+      {Bachelor  of Science in Computer Science (Hons)}{July 2023 - July 2027}
+  \resumeSubHeadingListEnd
 
 %-----------Achievements-----------
 \section{Achievements}
@@ -145,16 +154,26 @@
 \section{Experience}
 \resumeSubHeadingListStart
 
+\resumeSubheading
+    {Founding Engineer}{April 2026 -- Present}
+    {Omium.ai}{Remote -- San Francisco}
+   \resumeItemListStart
+    \resumeItem{Designed a \textbf{16-service polyglot backend} (Python/FastAPI, Go/gRPC) on AWS EKS supporting multi-framework AI agent execution — processed \textbf{341 agent runs and 12,455 billing events} within 24 hours of launch.}
+    \resumeItem{Engineered a \textbf{3-tier checkpoint system} (Redis → PostgreSQL → S3) achieving \textbf{<5ms write latency}; added circuit breaking, DB-fallback on gRPC outage, and async LZ4-compressed S3 offloading.}
+    \resumeItem{Built a \textbf{self-healing RLHF pipeline} with MAST failure classification, ELO-ranked multi-LLM fix generation, and automated GitHub PR creation — enabling AI-driven recovery without human intervention.}
+\resumeItemListEnd
+
 
 
 
 \resumeSubheading
     {Forward Deployed Engineer}{June 2025 -- Sep 2025}
-    {AiStudio}{(Remote – Dubai based)}
+    {AiStudio.ae}{(Remote – Dubai based)}
     \resumeItemListStart
 \resumeItem{Architecting a \textbf{multi-agent orchestration system} for enterprise data querying across CRM, Excel, and Salesforce using \textbf{Pinecone} and \textbf{Knowledge Graphs}.}
 \resumeItem{Designed scalable \textbf{microservices architecture} with modular skill execution, workflow composition, and state management for long-running agent tasks.}
-\resumeItem{Built real-time data pipelines integrating vector search and \textbf{Graph RAG}, enabling low-latency contextual retrieval.}
+\resumeItem{Built real-time data pipelines integrating \textbf{vector search} and \textbf{Graph RAG}, enabling low-latency contextual retrieval over enterprise
+data.}
 \resumeItem{Deployed and managed services on \textbf{AWS}, focusing on reliability, logging, and production monitoring.}
 \resumeItemListEnd
 
@@ -164,16 +183,15 @@
     
   \resumeSubheading
     {Software Engineering Intern}{June 2024 -- Feb 2025}
-    {Scaler}{Bangalore, India}
+    {Scaler.com}{Bangalore, India}
     \resumeItemListStart
-\resumeItem{Owned end-to-end development of an AI Support chatbot built on \textbf{FastAPI microservices}, reducing GPT queries by \textbf{10\%} and human dependency by \textbf{33\%}.}
-\resumeItem{Designed a \textbf{multi-model orchestration layer} to compose and manage multiple LLM workflows with centralized observability (Langfuse).}
+\resumeItem{Owned end-to-end development of an \textbf{AI Support} chatbot built on \textbf{FastAPI microservices}, reducing GPT queries by \textbf{25\%} usin \textbf{RAG} and human ticket raise by \textbf{47\%}.}
+\resumeItem{Designed a \textbf{multi-model orchestration layer} to compose and manage multiple LLM workflows with centralized observability \textbf{Langfuse}.}
 \resumeItem{Implemented \textbf{real-time communication layers using WebSockets} for live mock interviews with proctoring and speech-to-speech interaction (45–60 min sessions).}
-\resumeItem{Built asynchronous task execution pipelines using \textbf{Celery + Redis}, enabling event-driven notification systems (WhatsApp, Email).}
+\resumeItem{Built asynchronous task execution pipelines using \textbf{Celery + Redis}, enabling \textbf{event-driven} notification systems (WhatsApp, Email).}
 \resumeItem{Deployed containerized services on \textbf{AWS EC2/S3} with Docker, PostgreSQL, and Redis for scalable backend systems.}
 \resumeItemListEnd
 \resumeSubHeadingListEnd
-
 
 
 
@@ -182,39 +200,42 @@
 \resumeSubHeadingListStart
 
 \resumeProjectHeading
-{\textbf{Shell Breaker — Interactive Linux Problem-Solving Sandbox Platform} $|$ \emph{Bubblewrap, tmux, cgroups v2, FastAPI, Redis}}{Oct 2025 -- Present}
+{\textbf{ShellBreaker.com --- Interactive Linux Sandbox Platform} $|$ \emph{Bubblewrap, tmux, cgroups v2, FastAPI, Redis}}{Oct 2025 -- Present}
 \resumeItemListStart
-\resumeItem{\textbf{Problem:} No good platform existed for practicing and mastering real Linux in realistic environments without risking host VM.}
-\resumeItem{\textbf{Solution:} Built a multi-tenant, \textbf{namespace-isolated Linux sandbox} using bubblewrap (\textbf{<8 MB per session}), tmux (\textbf{95\% session stability}) and cgroups v2 for real-time CPU/memory/PID enforcement (\textbf{<2 s kill}).}
-\resumeItem{\textbf{Engineering Highlights:}
-\begin{itemize}
-    \item Enabled \textbf{<10 s cold-start} sandboxes and persistent tmux-backed sessions.
-    \item Implemented PostgreSQL audit ledger with \textbf{99\% command traceability} and \textbf{replay}.
-    \item Enforced \textbf{300+ blocked unsafe commands} via syscall filtering and pattern-based command gating.
-    \item Automated GC reduced orphan sessions by \textbf{95\%}.
-\end{itemize}}
-\resumeItem{\textbf{Impact:} Runs \textbf{70+} concurrent isolated sandboxes on a \textbf{4 GB VM}, powering live gamified Linux challenges with real-time monitoring and zero security incidents.}
+    \resumeItem{\textbf{Problem:} No platform existed for practicing real Linux in realistic environments without risking the host VM.}
+    
+    \resumeItem{\textbf{Solution:} Built a \textbf{multi-tenant, namespace-isolated} Linux sandbox using bubblewrap (\textbf{<8 MB/session}), tmux (\textbf{95\% session stability}), and cgroups v2 for real-time CPU/memory/PID enforcement (\textbf{<2 s kill}).}
+    
+    \resumeItem{\textbf{Engineering:} <10 s cold-start; PostgreSQL audit ledger with \textbf{99\% command traceability}; \textbf{300+ blocked unsafe commands} via syscall filtering; automated GC reduced orphan sessions by \textbf{95\%}.}
+    
+    \resumeItem{\textbf{Impact:} Runs \textbf{70+ concurrent isolated sandboxes} on a 4 GB VM, powering live gamified Linux challenges with real-time monitoring and zero security incidents with \textbf{<10 MB} per linux session \textbf{RAM} usage. }
 \resumeItemListEnd
 
 
 \resumeProjectHeading
-{\textbf{IRIS – Autonomous AI Software Engineer} $|$ \emph{Python, FastAPI, Agent (MCPs)[GitHub, Slack, ElevenLabs, Gmail]}}{Apr 2025 -- May 2025}
+{\textbf{IRIS --- Autonomous AI Software Engineer} $|$ \emph{Python, FastAPI, MCP [GitHub, Slack, ElevenLabs, Gmail]}}{Apr 2025 -- May 2025}
 \resumeItemListStart
-\resumeItem{Built a \textbf{core agent orchestration engine} enabling autonomous skill execution across GitHub, Slack, Gmail, and CLI environments.}
-\resumeItem{Implemented task planning, workflow composition, and \textbf{state management} for long-running multi-step agent interactions.}
-\resumeItem{Integrated \textbf{real-time communication via WebSockets} and voice interfaces for live agent feedback loops.}
-\resumeItem{Designed modular backend services using FastAPI to support extensible agent capabilities and tool integrations.}
-\resumeItem{Developed IRIS CLI for natural language-based local execution (file edits, shell commands, workflow automation).}
+    \resumeItem{Built a \textbf{core agent orchestration engine} enabling autonomous skill execution across GitHub, Slack, Gmail, and CLI environments.}
+    
+    \resumeItem{Implemented \textbf{task planning, workflow composition, and state management} for long-running multi-step agent interactions with persistent context.}
+    
+    \resumeItem{Integrated real-time feedback via \textbf{WebSockets} and voice interfaces (ElevenLabs) for live agent interaction loops.}
+    
+    \resumeItem{Developed IRIS CLI for natural language-driven local execution: file edits, shell commands, and workflow automation.}
 \resumeItemListEnd
 
+
 \resumeProjectHeading
-{\textbf{Image Search Engine} $|$ \textbf{Hackathon Winning} \emph{Swift, Python, CLIP, FAISS, USearch} }{Dec 2024 -- March 2025}
+{\textbf{PhotoSage --- On-Device Image Search Engine $|$ Hackathon Winner} $|$ \emph{Swift, Python, CLIP, FAISS, USearch}}{Dec 2024 -- Mar 2025}
 \resumeItemListStart
-\resumeItem{\textbf{Problem:} Searching for images on mobile devices is slow, scrolling in 1000s of images searching manually.}
-\resumeItem{\textbf{Solution:} Built an \textbf{on-device} image search engine using \textbf{CLIP} for embeddings and \textbf{FAISS} for efficient retrieval (now using USearch), ensuring full offline functionality and user privacy.}
-\resumeItem{\textbf{Impact:} Outperformed \textbf{Google Photos} on \textbf{70\% of test cases} during benchmarking. Now live on the App Store, helping real users search images using natural language. \textbf{120+ Downloads}.}
-\resumeItem{\textbf{Live on App Store:} \href{https://apps.apple.com/in/app/photosage/id6740922284}{\underline{PhotoSage on App Store}}.}
+    \resumeItem{\textbf{Problem:} Manual scrolling through thousands of photos on mobile is slow and frustrating.}
+    
+    \resumeItem{\textbf{Solution:} Built a \textbf{fully on-device} semantic image search engine using \textbf{CLIP} embeddings and \textbf{FAISS/USearch} for efficient retrieval, with no data leaving the device.}
+    
+    \resumeItem{\textbf{Impact:} Matched or exceeded Google Photos on \textbf{70\% of internal benchmark queries}; \textbf{120+ downloads}, live on the \href{https://apps.apple.com/in/app/photosage/id6740922284}{\underline{App Store}}.}
 \resumeItemListEnd
+
+\resumeSubHeadingListEnd
 
 
 
@@ -238,18 +259,11 @@
 \textbf{Frameworks:} FastAPI, Flask & 
 \textbf{Real-Time:} WebSockets, SSE, Async Task Queues \\
 \textbf{Databases:} PostgreSQL, Redis, MongoDB & 
-\textbf{Cloud/DevOps:} AWS (EC2, S3), Docker, CI/CD, Observability, Logging \\
+\textbf{Cloud/DevOps:} AWS (EC2,S3,EKS), Docker, Kubernetes, kafka, CI/CD, Observability, Logging \\
 \end{tabular*}
 
 
 
-%-----------EDUCATION-----------
-\section{Education}
-  \resumeSubHeadingListStart
 
-    \resumeSubheading
-      {Birla Institute Of Technology And Science,Pilani}{Pilani,India}
-      {Bachelor  of Science in Computer Science}{July 2023 - July 2026}
-  \resumeSubHeadingListEnd
 %-------------------------------------------
 \end{document}
