@@ -93,18 +93,18 @@
     {Software Engineering Intern}{April 2026 -- May 2026}
     {Omium.ai}{Remote — San Francisco}
     \resumeItemListStart
-      \resumeItem{Worked across a \textbf{16-service polyglot backend} (Python/FastAPI, Go/gRPC) on AWS EKS — processed \textbf{341 agent runs and 12,455 billing events} within 24 hours of launch.}
+      \resumeItem{Built production infrastructure across a \textbf{16-service AI platform} (Python/FastAPI, Go/gRPC) on AWS EKS, supporting \textbf{341 autonomous agent runs} and 12,455 billing events within 24 hours of launch.}
       \resumeItem{Built a \textbf{3-tier checkpoint system} (Redis $\rightarrow$ PostgreSQL $\rightarrow$ S3) with \textbf{<5ms write latency}, circuit breaking on gRPC outage, and async LZ4-compressed S3 offloading.}
       \resumeItem{Designed a \textbf{self-healing failure pipeline} using MAST failure classification, ELO-ranked multi-LLM fix generation, and automated GitHub PR creation — reducing manual intervention for agent crashes.}
     \resumeItemListEnd
 
-  \resumeSubheading
+ \resumeSubheading
     {Forward Deployed Engineer}{June 2025 -- Sep 2025}
     {AiStudio.ae}{Remote — Dubai}
     \resumeItemListStart
-      \resumeItem{Built a \textbf{multi-agent query system} over CRM, Excel, and Salesforce data using Pinecone and Knowledge Graphs — reduced ad-hoc analyst queries by enabling natural language data access.}
-      \resumeItem{Designed the backend execution layer handling \textbf{modular skill dispatch, workflow composition, and task state} for long-running enterprise queries.}
-      \resumeItem{Integrated Graph RAG with vector search for \textbf{async} contextual retrieval across structured and unstructured enterprise data sources.}
+      \resumeItem{Partnered with enterprise customers and founders to translate ambiguous operational workflows into production AI systems, rapidly shipping features through continuous user feedback.}
+      \resumeItem{Owned deployment of a \textbf{multi-agent enterprise assistant} integrating CRM, Salesforce, Excel, document ingestion, \textbf{Knowledge Graph RAG}, and vector search into customer workflows.}
+      \resumeItem{Engineered agent infrastructure with \textbf{workflow orchestration, modular tool routing, async execution, persistent state}, and evaluation-driven retrieval across enterprise data sources.}
     \resumeItemListEnd
 
   \resumeSubheading
@@ -123,7 +123,18 @@
 \section{Projects}
 \resumeSubHeadingListStart
 
+  
+
   \resumeProjectHeading
+    {\textbf{IRIS Studio} — \textit{Multi-Agent Execution Platform} \href{https://drive.google.com/drive/folders/1ODpUhh3_nUdzi7A4T8gDjfVqhLF4gFgv?usp=drive_link}{\textcolor{blue}{[Live Demo]}} $|$ \emph{Python, FastAPI, LangGraph, Redis, PostgreSQL, MCP}}{May 2026 -- Present}
+    \resumeItemListStart
+     \resumeItem{Built a production \textbf{multi-agent execution platform} with supervisor routing, conditional workflows, human approval checkpoints, persistent state, and autonomous tool orchestration.}
+      \resumeItem{Engineered an \textbf{LLM observability and evaluation pipeline} with distributed tracing, Redis Streams, OpenTelemetry-compatible spans, per-provider cost estimation, and PII-aware telemetry.}
+      \resumeItem{Integrated GitHub, Slack, Gmail, Notion etc. agents execute multi-step workflows end-to-end with real-time tracing analytics backend.}
+      \resumeItem{Published the \textbf{iris-ai-cli} AI CLI on PyPI with \textbf{6.6k+ downloads}.}
+    \resumeItemListEnd
+
+    \resumeProjectHeading
     {\textbf{ShellBreaker.com} $|$ \emph{Bubblewrap, tmux, cgroups v2, FastAPI, Redis}}{Oct 2025 -- Present}
     \resumeItemListStart
       \resumeItem{\textbf{Problem:} No platform existed for practicing real Linux commands in isolated environments without risk to the host.}
@@ -133,19 +144,11 @@
     \resumeItemListEnd
 
   \resumeProjectHeading
-    {\textbf{IRIS Studio} — \textit{Multi-Agent Execution Platform} \href{https://drive.google.com/drive/folders/1ODpUhh3_nUdzi7A4T8gDjfVqhLF4gFgv?usp=drive_link}{\textcolor{blue}{[Live Demo]}} $|$ \emph{Python, FastAPI, LangGraph, Redis, PostgreSQL, MCP}}{May 2026 -- Present}
-    \resumeItemListStart
-      \resumeItem{Built a \textbf{LangGraph-based agent execution engine} with supervisor routing, conditional branching, feedback loops, human approval checkpoints, and persistent state across workflow runs.}
-      \resumeItem{Engineered a \textbf{custom LLM observability SDK} with ContextVar decorator-based span instrumentation and a non-blocking \textbf{Redis Streams ingest pipeline} (consumer group + DLQ) mirrors OpenTelemetry trace hierarchy with per-provider cost estimation and \textbf{PII} redaction.}
-      \resumeItem{Integrated GitHub, Slack, Gmail, Notion, and Telegram; agents execute multi-step workflows end-to-end with real-time tracing through a FastAPI analytics backend.}
-    \resumeItemListEnd
-
-  \resumeProjectHeading
     {\textbf{PhotoSage — On-Device Semantic Image Search} \href{https://apps.apple.com/in/app/photosage/id6740922284}{\textcolor{blue}{[App Store]}} $|$ \emph{Swift, Python, CLIP, FAISS, USearch}}{Dec 2024 -- Mar 2025}
     \resumeItemListStart
       \resumeItem{\textbf{Problem:} Searching through thousands of photos on mobile requires manual scrolling with no semantic understanding.}
       \resumeItem{Built a \textbf{fully on-device} search engine using CLIP embeddings and FAISS/USearch — all inference runs locally with no data leaving the device.}
-      \resumeItem{Matched or exceeded Google Photos on \textbf{70\% of internal benchmark queries}; \textbf{200+ downloads} on the App Store.}
+     \resumeItem{Matched or exceeded Google Photos on \textbf{70\% of semantic retrieval benchmarks}; deployed on the App Store with \textbf{200+ downloads}.}
     \resumeItemListEnd
 
 \resumeSubHeadingListEnd
@@ -172,7 +175,7 @@
 \textbf{Databases:} PostgreSQL, Redis, MongoDB &
 \textbf{Cloud/DevOps:} AWS (EC2, S3, EKS), Docker, Kubernetes, Kafka, CI/CD \\
 \textbf{Protocols:} gRPC, WebSockets, SSE, MCP &
-\textbf{ML/AI:} CLIP, FAISS, RAG, Knowledge Graphs, Vector Search \\
+\textbf{ML/AI:} Agent Engineering, LangGraph, RAG, Knowledge Graphs, Vector Search, CLIP, FAISS \\
 \end{tabular*}
 
 %-----------ACHIEVEMENTS-----------
