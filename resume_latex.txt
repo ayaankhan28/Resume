@@ -155,6 +155,7 @@
       \resumeItem{Built a \textbf{LangGraph-based agent execution engine} with supervisor routing, conditional branching, feedback loops, human approval checkpoints, and persistent state across workflow runs.}
       \resumeItem{Engineered a \textbf{custom LLM observability SDK} with ContextVar decorator-based span instrumentation and a non-blocking \textbf{Redis Streams ingest pipeline} (consumer group + DLQ) mirrors OpenTelemetry trace hierarchy with per-provider cost estimation and \textbf{PII} redaction.}
       \resumeItem{Integrated GitHub, Slack, Gmail, Notion, and Telegram; agents execute multi-step workflows end-to-end with real-time tracing through a FastAPI analytics backend.}
+      \resumeItem{Published the \textbf{iris-ai-cli} AI CLI on PyPI with \textbf{6.6k+ downloads}.}
     \resumeItemListEnd
 
   \resumeProjectHeading
