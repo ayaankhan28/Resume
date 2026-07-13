@@ -115,14 +115,15 @@
       \resumeItem{Designed a \textbf{self-healing failure pipeline} using MAST failure classification, ELO-ranked multi-LLM fix generation, and automated GitHub PR creation — reducing manual intervention for agent crashes.}
     \resumeItemListEnd
 
-  \resumeSubheading
+ \resumeSubheading
     {Forward Deployed Engineer}{June 2025 -- Sep 2025}
     {AiStudio.ae}{Remote — Dubai}
     \resumeItemListStart
-      \resumeItem{Built a \textbf{multi-agent query system} over CRM, Excel, and Salesforce data using Pinecone and Knowledge Graphs — reduced ad-hoc analyst queries by enabling natural language data access.}
-      \resumeItem{Designed the backend execution layer handling \textbf{modular skill dispatch, workflow composition, and task state} for long-running enterprise queries.}
-      \resumeItem{Integrated Graph RAG with vector search for \textbf{async} contextual retrieval across structured and unstructured enterprise data sources.}
+      \resumeItem{Partnered with enterprise customers and founders to translate ambiguous operational workflows into production AI systems, rapidly shipping features through continuous user feedback.}
+      \resumeItem{Owned deployment of a \textbf{multi-agent enterprise assistant} integrating CRM, Salesforce, Excel, document ingestion, \textbf{Knowledge Graph RAG}, and vector search into customer workflows.}
+      \resumeItem{Engineered agent infrastructure with \textbf{workflow orchestration, modular tool routing, async execution, persistent state}, and evaluation-driven retrieval across enterprise data sources.}
     \resumeItemListEnd
+
 
   \resumeSubheading
     {Software Engineering Intern}{June 2024 -- Feb 2025}
@@ -141,12 +142,12 @@
 \resumeSubHeadingListStart
 
   \resumeProjectHeading
-    {\textbf{ShellBreaker.com} $|$ \emph{Bubblewrap, tmux, cgroups v2, FastAPI, Redis}}{Oct 2025 -- Present}
+    {\textbf{ShellBreaker.com} — \textit{Interactive Linux Learning Platform}  $|$ \emph{Bubblewrap, tmux, cgroups v2, FastAPI, Redis}}{Oct 2025 -- Present}
     \resumeItemListStart
-      \resumeItem{\textbf{Problem:} No platform existed for practicing real Linux commands in isolated environments without risk to the host.}
-      \resumeItem{Built a \textbf{multi-tenant namespace-isolated sandbox} using bubblewrap (\textbf{<8 MB/session}), tmux, and cgroups v2 for CPU/memory/PID enforcement with a \textbf{<2s kill} on limit breach.}
-      \resumeItem{Cold-start under \textbf{10 seconds}; \textbf{300+ syscalls blocked} via seccomp filtering; automated GC cut orphaned sessions by \textbf{95\%}; PostgreSQL audit log captures \textbf{99\%} of commands.}
-      \resumeItem{\textbf{Runs 70+ concurrent sandboxes on a 4 GB VM} with zero security incidents — each session uses under 10 MB RAM.}
+      \resumeItem{\textbf{Problem:} No platform existed for practicing real Linux commands in isolated environments without risking the host system.}
+      \resumeItem{Built a \textbf{multi-tenant namespace-isolated sandbox} using Bubblewrap (\textbf{<8 MB/session}), tmux, and cgroups v2 with CPU/memory/PID isolation and \textbf{<2s} automatic termination on limit breach.}
+      \resumeItem{Cold-start under \textbf{10s}; \textbf{300+ syscalls blocked} via seccomp; automated GC reduced orphaned sessions by \textbf{95\%}; PostgreSQL audit logging captures \textbf{99\%} of commands.}
+      \resumeItem{\textbf{Supports 70+ concurrent sandboxes} on a 4 GB VM; \textbf{1,400+ users} have executed \textbf{5,700+ Linux commands} across \textbf{1,000+ practice sessions} (avg. \textbf{10 min/session})}
     \resumeItemListEnd
 
   \resumeProjectHeading
