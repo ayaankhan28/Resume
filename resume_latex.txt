@@ -92,19 +92,20 @@
     {B.S. in Computer Science (Hons)}{July 2023 -- August 2027}
 \resumeSubHeadingListEnd
 
-%-----------ACHIEVEMENTS-----------
-\section{Achievements}
-\resumeItemListStart
-  \setlength{\itemsep}{0pt}
-  \resumeItem{\textbf{1st place}, iQOO Hackathon 2026- built on device 3d physics simulation Engine to convert study material in to interactive content}
-  \resumeItem{\textbf{2nd place} (solo) in the \textbf{Emerging Tech Hackathon} by Metadome.ai  build local on device Image Search Engine.}
-  \resumeItem{Press coverage across \href{https://timesofindia.indiatimes.com/city/bengaluru/gamer-controls-car-in-racing-game-with-gestures-instead-of-wheel/articleshow/110283734.cms}{\underline{Times of India}}, \href{https://www.deccanherald.com/india/karnataka/bengaluru/student-develops-system-to-control-pc-racing-games-with-hand-gestures-3021121}{\underline{Deccan Herald}}, \href{https://www.business-standard.com/content/specials/scaler-school-of-technology-students-create-ai-companion-to-simplify-interview-prep-125010800921_1.html}{\underline{Business Standard}}, \href{https://www.edexlive.com/opinion/2024/Dec/26/scaler-companion-three-students-one-amazing-gen-ai-tool}{\underline{EdexLive}}, and \href{https://www.siliconindia.com/news/startups/student-of-scaler-school-of-technology-develops-innovative-hand-gesture-control-for-racing-game-nid-229267-cid-19.html}{\underline{Silicon India}} for projects in CV, GenAI, and on-device ML.}
-  \resumeItem{Contributed \textbf{5+ merged PRs} to \href{https://github.com/runablehq/mcp_ctl}{\underline{\textbf{mcp\_ctl}}}, an open-source MCP server scaffolding CLI by Runnable — improved flag parsing and developer UX.}
-\resumeItemListEnd
+
 
 %-----------EXPERIENCE-----------
 \section{Experience}
 \resumeSubHeadingListStart
+
+  \resumeSubheading
+    {Founding Engineer Intern}{August 2026}
+    {Lab0 (YC P26)}{Bangalore, India}
+    \resumeItemListStart
+      \resumeItem{Built and shipped a \textbf{UAE e-invoicing (Peppol PINT-AE) connector} for Microsoft Dynamics 365 Business Central in \textbf{10 days} — \textbf{13,620 lines of AL across 73 objects} — with a live invoice accepted by the Accredited Service Provider and the UAE FTA.}
+      \resumeItem{Achieved \textbf{100\% conformance (738/738, 0 mismatches)} against the official Peppol PINT-AE catalogue by building an offline pre-flight validator covering \textbf{302 fatal compliance rules}, with 20/20 outbound scenarios and 52/52 injected violations correctly detected.}
+      \resumeItem{\textbf{Re-architected} the integration from Python middleware to a fully \textbf{AL-native ERP-to-ASP flow} after a hard compliance constraint; preserved invoices, credit notes, inbound receipts, and self-billing while eliminating the intermediary service.}
+    \resumeItemListEnd
 
   \resumeSubheading
     {Software Engineering Intern}{April 2026 -- May 2026}
@@ -112,18 +113,16 @@
     \resumeItemListStart
       \resumeItem{Worked across a \textbf{16-service polyglot backend} (Python/FastAPI, Go/gRPC) on AWS EKS — processed \textbf{341 agent runs and 12,455 billing events} within 24 hours of launch.}
       \resumeItem{Built a \textbf{3-tier checkpoint system} (Redis $\rightarrow$ PostgreSQL $\rightarrow$ S3) with \textbf{<5ms write latency}, circuit breaking on gRPC outage, and async LZ4-compressed S3 offloading.}
-      \resumeItem{Designed a \textbf{self-healing failure pipeline} using MAST failure classification, ELO-ranked multi-LLM fix generation, and automated GitHub PR creation — reducing manual intervention for agent crashes.}
+      \resumeItem{Designed a \textbf{self-healing failure pipeline} using MAST failure classification, ELO-ranked multi-LLM fix generation, and automated GitHub PR creation.}
     \resumeItemListEnd
 
- \resumeSubheading
+  \resumeSubheading
     {Forward Deployed Engineer}{June 2025 -- Sep 2025}
     {AiStudio.ae}{Remote — Dubai}
     \resumeItemListStart
-      \resumeItem{Partnered with enterprise customers and founders to translate ambiguous operational workflows into production AI systems, rapidly shipping features through continuous user feedback.}
-      \resumeItem{Owned deployment of a \textbf{multi-agent enterprise assistant} integrating CRM, Salesforce, Excel, document ingestion, \textbf{Knowledge Graph RAG}, and vector search into customer workflows.}
+      \resumeItem{Owned deployment of a \textbf{multi-agent enterprise assistant} integrating CRM, Salesforce, Excel, document ingestion, \textbf{Knowledge Graph RAG}, and vector search into customer workflows — translating ambiguous enterprise workflows into production AI systems.}
       \resumeItem{Engineered agent infrastructure with \textbf{workflow orchestration, modular tool routing, async execution, persistent state}, and evaluation-driven retrieval across enterprise data sources.}
     \resumeItemListEnd
-
 
   \resumeSubheading
     {Software Engineering Intern}{June 2024 -- Feb 2025}
@@ -132,7 +131,6 @@
       \resumeItem{Built an \textbf{AI support chatbot} on FastAPI with RAG-based retrieval — cut GPT API calls by \textbf{25\%} and reduced human ticket volume by \textbf{47\%}.}
       \resumeItem{Designed a \textbf{multi-model orchestration layer} with centralized tracing via Langfuse, coordinating 3+ LLMs across support and interview workflows.}
       \resumeItem{Implemented \textbf{WebSocket-based live interview sessions} with proctoring and speech-to-speech interaction across 45--60 min sessions.}
-      \resumeItem{Built async notification pipelines using \textbf{Celery + Redis}, dispatching WhatsApp and email events at scale.}
     \resumeItemListEnd
 
 \resumeSubHeadingListEnd
@@ -144,41 +142,49 @@
   \resumeProjectHeading
     {\textbf{ShellBreaker.com} — \textit{Interactive Linux Learning Platform}  $|$ \emph{Bubblewrap, tmux, cgroups v2, FastAPI, Redis}}{Oct 2025 -- Present}
     \resumeItemListStart
-      \resumeItem{\textbf{Problem:} No platform existed for practicing real Linux commands in isolated environments without risking the host system.}
-      \resumeItem{Built a \textbf{multi-tenant namespace-isolated sandbox} using Bubblewrap (\textbf{<8 MB/session}), tmux, and cgroups v2 with CPU/memory/PID isolation and \textbf{<2s} automatic termination on limit breach.}
+      \resumeItem{Built a \textbf{multi-tenant namespace-isolated sandbox} (Bubblewrap, tmux, cgroups v2) with CPU/memory/PID isolation, \textbf{<8 MB/session}, and \textbf{<2s} termination on limit breach.}
       \resumeItem{Cold-start under \textbf{10s}; \textbf{300+ syscalls blocked} via seccomp; automated GC reduced orphaned sessions by \textbf{95\%}; PostgreSQL audit logging captures \textbf{99\%} of commands.}
-      \resumeItem{\textbf{Supports 70+ concurrent sandboxes} on a 4 GB VM; \textbf{1,400+ users} have executed \textbf{5,700+ Linux commands} across \textbf{1,000+ practice sessions} (avg. \textbf{10 min/session})}
+      \resumeItem{\textbf{Supports 70+ concurrent sandboxes} on a 4 GB VM; \textbf{1,800+ users} have run \textbf{6,600+ commands} across \textbf{1,000+ sessions}.}
     \resumeItemListEnd
 
   \resumeProjectHeading
     {\textbf{IRIS Studio} — \textit{Multi-Agent Execution Platform} \href{https://drive.google.com/drive/folders/1ODpUhh3_nUdzi7A4T8gDjfVqhLF4gFgv?usp=drive_link}{\textcolor{blue}{[Live Demo]}} $|$ \emph{Python, FastAPI, LangGraph, Redis, PostgreSQL, MCP}}{May 2026 -- Present}
     \resumeItemListStart
-      \resumeItem{Built a \textbf{LangGraph-based agent execution engine} with supervisor routing, conditional branching, feedback loops, human approval checkpoints, and persistent state across workflow runs.}
-      \resumeItem{Engineered a \textbf{custom LLM observability SDK} with ContextVar decorator-based span instrumentation and a non-blocking \textbf{Redis Streams ingest pipeline} (consumer group + DLQ) mirrors OpenTelemetry trace hierarchy with per-provider cost estimation and \textbf{PII} redaction.}
-      \resumeItem{Integrated GitHub, Slack, Gmail, Notion, and Telegram; agents execute multi-step workflows end-to-end with real-time tracing through a FastAPI analytics backend.}
-      \resumeItem{Published the \textbf{iris-ai-cli} AI CLI on PyPI with \textbf{6.6k+ downloads}.}
+      \resumeItem{Built a \textbf{LangGraph agent execution engine} with supervisor routing, conditional branching, feedback loops, and human approval checkpoints.}
+      \resumeItem{Engineered a \textbf{custom LLM observability SDK} with ContextVar span instrumentation and non-blocking Redis Streams ingestion, with per-provider cost estimation and \textbf{PII} redaction.}
+      \resumeItem{Integrated GitHub, Slack, Gmail, Notion, and Telegram; published \textbf{iris-ai-cli} on PyPI with \textbf{7k+ downloads}.}
     \resumeItemListEnd
 
   \resumeProjectHeading
     {\textbf{PhotoSage — On-Device Semantic Image Search} \href{https://apps.apple.com/in/app/photosage/id6740922284}{\textcolor{blue}{[App Store]}} $|$ \emph{Swift, Python, CLIP, FAISS, USearch}}{Dec 2024 -- Mar 2025}
     \resumeItemListStart
-      \resumeItem{\textbf{Problem:} Searching through thousands of photos on mobile requires manual scrolling with no semantic understanding.}
-      \resumeItem{Built a \textbf{fully on-device} search engine using CLIP embeddings and FAISS/USearch — all inference runs locally with no data leaving the device.}
+      \resumeItem{Built a \textbf{fully on-device} semantic image search engine using CLIP embeddings and FAISS/USearch — all inference runs locally with no data leaving the device.}
       \resumeItem{Matched or exceeded Google Photos on \textbf{70\% of internal benchmark queries}; \textbf{200+ downloads} on the App Store.}
     \resumeItemListEnd
 
 \resumeSubHeadingListEnd
 
+
+%-----------ACHIEVEMENTS-----------
+\section{Achievements}
+\resumeItemListStart
+  \setlength{\itemsep}{0pt}
+  \resumeItem{\textbf{1st place}, iQOO Hackathon 2026 — built an on-device 3D physics simulation engine to convert study material into interactive content.}
+  \resumeItem{\textbf{2nd place} (solo), \textbf{Emerging Tech Hackathon} by Metadome.ai — built a local, on-device semantic image search engine.}
+  \resumeItem{Press coverage across \href{https://timesofindia.indiatimes.com/city/bengaluru/gamer-controls-car-in-racing-game-with-gestures-instead-of-wheel/articleshow/110283734.cms}{\underline{Times of India}}, \href{https://www.deccanherald.com/india/karnataka/bengaluru/student-develops-system-to-control-pc-racing-games-with-hand-gestures-3021121}{\underline{Deccan Herald}}, \href{https://www.business-standard.com/content/specials/scaler-school-of-technology-students-create-ai-companion-to-simplify-interview-prep-125010800921_1.html}{\underline{Business Standard}}, \href{https://www.edexlive.com/opinion/2024/Dec/26/scaler-companion-three-students-one-amazing-gen-ai-tool}{\underline{EdexLive}}, and \href{https://www.siliconindia.com/news/startups/student-of-scaler-school-of-technology-develops-innovative-hand-gesture-control-for-racing-game-nid-229267-cid-19.html}{\underline{Silicon India}} for projects in CV, GenAI, and on-device ML.}
+  \resumeItem{Contributed \textbf{5+ merged PRs} to \href{https://github.com/runablehq/mcp_ctl}{\underline{\textbf{mcp\_ctl}}}, an open-source MCP server scaffolding CLI by Runnable — improved flag parsing and developer UX.}
+\resumeItemListEnd
+
 %-----------SKILLS-----------
 \section{Skills}
 \begin{tabular*}{\textwidth}{@{\extracolsep{\fill}} l l}
-\textbf{Languages:} Python, Go&
+\textbf{Languages:} Python, Go, AL &
 \textbf{Architecture:} Microservices, Multi-Tenant Systems, Agent Orchestration \\
 \textbf{Frameworks:} FastAPI, LangGraph, Celery &
 \textbf{Observability:} OpenTelemetry, Langfuse, Redis Streams, Structured Logging \\
 \textbf{Databases:} PostgreSQL, Redis, MongoDB &
-\textbf{Cloud/DevOps:} AWS (EC2, S3, EKS), Docker, Kubernetes, Kafka, CI/CD \\
-\textbf{Protocols:} gRPC, WebSockets, SSE, MCP &
+\textbf{Cloud/DevOps:} AWS (EC2, S3, EKS), Docker, Kubernetes, CI/CD \\
+\textbf{Protocols:} gRPC, WebSockets, SSE, OData v4, MCP &
 \textbf{ML/AI:} CLIP, FAISS, RAG, Knowledge Graphs, Vector Search \\
 \end{tabular*}
 
