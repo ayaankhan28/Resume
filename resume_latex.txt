@@ -102,7 +102,7 @@
     {Founding Engineer Intern}{August 2026}
     {Lab0 (YC P26)}{Bangalore, India}
     \resumeItemListStart
-      \resumeItem{Built and shipped a \textbf{UAE e-invoicing (Peppol PINT-AE) connector} for Microsoft Dynamics 365 Business Central in \textbf{10 days} — \textbf{13,620 lines of AL across 73 objects} — with a live invoice accepted by the Accredited Service Provider and the UAE FTA.}
+      \resumeItem{Built and shipped a \textbf{UAE e-invoicing (Peppol PINT-AE) connector} for Microsoft Dynamics 365 Business Central in \textbf{10 days}, successfully testing end-to-end on the \textbf{official ASP's UAT platform}.}
       \resumeItem{Achieved \textbf{100\% conformance (738/738, 0 mismatches)} against the official Peppol PINT-AE catalogue by building an offline pre-flight validator covering \textbf{302 fatal compliance rules}, with 20/20 outbound scenarios and 52/52 injected violations correctly detected.}
       \resumeItem{\textbf{Re-architected} the integration from Python middleware to a fully \textbf{AL-native ERP-to-ASP flow} after a hard compliance constraint; preserved invoices, credit notes, inbound receipts, and self-billing while eliminating the intermediary service.}
     \resumeItemListEnd
